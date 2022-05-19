@@ -13,11 +13,9 @@ func main() {
 		nome  = "Pedro"
 		idade = 20
 	)
-	var hetero bool = true
-
-	fmt.Printf("Meu nome é: %s, Idade: %d, opção sexual: %t\n", nome, idade, hetero)
+	var homem bool = true
+	fmt.Printf("Meu nome é: %s, Idade: %d, é homem? %t\n", nome, idade, homem)
 
 	idade = calc.Soma(idade, 20)
-
 	fmt.Println(idade)
 }
